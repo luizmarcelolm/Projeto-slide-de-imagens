@@ -5,18 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Slide de imagens</title>
     <link rel="stylesheet" href="style.css">
-    <script src="javascript.js"></script>
+    <title>Slides de imagens</title>
 </head>
 
 <body>
-    <div class="container_slide">
-        <div class="button" id="voltar">&laquo</div>
-        <div class="container_itens" id="container_itens"></div>
-        <div class="button" id="proximo">&raquo</div>
-    </div>
+    <section class="container">
+        <div class="slides">
+            <input type="radio" name="radio" id="slide1" checked>
+            <input type="radio" name="radio" id="slide2">
+            <input type="radio" name="radio" id="slide3">
+            <input type="radio" name="radio" id="slide4">
 
+            <div class="imagens primeira">
+                <img src="imagem1.jpg" alt="imagens">
+            </div>
+            <div class="imagens">
+                <img src="imagem2.jpg" alt="imagens">
+            </div>
+            <div class="imagens">
+                <img src="imagem3.jpg" alt="imagens">
+            </div>
+            <div class="imagens">
+                <img src="imagem4.jpg" alt="imagens">
+            </div>
+        </div>
+        <div class="navigation">
+            <label for="slide1" class="nav"></label>
+            <label for="slide2" class="nav"></label>
+            <label for="slide3" class="nav"></label>
+            <label for="slide4" class="nav"></label>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

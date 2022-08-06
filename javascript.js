@@ -1,13 +1,12 @@
-'use strict'
+let contador = 1;
 
-const imagens = [
-    { 'id': '1', 'url': '' }, { 'id': '2', 'url': '' }, { 'id': '3', 'url': '' }, { 'id': '4', 'url': '' }, { 'id': '5', 'url': '' },
-]
+Intervalo(function() {
 
-const container = document.querySelector('#container_item');
+    document.getElementById('slide-' + contador).checked = true;
+    contador++;
 
+    if (contador > 4) {
+        contador = 1;
+    }
 
-const load_imagens = (imagens, container) =>
-
-
-    load_imagens(imagens, container);
+}, 4000)
