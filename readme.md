@@ -1,4 +1,4 @@
 - [x] Definir imagens
 - [x] criar botão avançar
 - [x] criar botão voltar
-- [] fazer responsividade
+- [x] fazer responsividade
