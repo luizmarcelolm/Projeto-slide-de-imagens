@@ -1,4 +1,1 @@
-- [x] Definir imagens
-- [x] criar botão avançar
-- [x] criar botão voltar
-- [x] fazer responsividade
+Nesse projeto utilizei o css e o Javascript para fazer a transição de imagens, trabalhando com a responsividade com telas menores.
